@@ -67,3 +67,21 @@ Estado de revisión: 29 de octubre de 2026.
 - **Pendiente:** verificar en la interfaz de AdSense con el método «Etiqueta meta». Google realiza la comprobación en sus servidores.
 - **Pendiente:** confirmar respuesta HTTP 200 y contenido correcto de `https://cuentas-claras-murex-delta.vercel.app/ads.txt` en un navegador externo; el despliegue exitoso no sustituye esta prueba.
 - **No solicitar revisión final hasta resolver** la identificación legal del sitio y completar las políticas de privacidad/cookies y el plan de consentimiento publicitario. Estos asuntos pueden afectar a la aprobación y al cumplimiento legal.
+
+## Actualización — 23/11/2026 (ampliación de contenido tras el aviso «Contenido de poco valor»)
+
+**Qué se ha hecho**
+- Las 10 guías se han reescrito y ampliado (de 230–670 a 800–1.300 palabras): fórmula explicada, ejemplos con cifras calculadas con la misma lógica que las calculadoras, tablas comparativas, errores frecuentes, preguntas frecuentes y fuentes oficiales enlazadas (Banco de España, BOE, CNMV).
+- Cada guía muestra autoría editorial («equipo editorial de Cuentas Claras») y fecha de actualización, y el JSON-LD incluye `author` y `dateModified`.
+- Corregida la cifra de la portada: con 1.000 € iniciales, 200 € al mes, 20 años y 6 % nominal el resultado teórico es 95.718 € (antes aparecía 94.491 €, que no coincidía con la calculadora).
+- La página «Cómo funciona» incluye ahora cómo se preparan y revisan las guías y cómo se financia el proyecto.
+- `sitemap.xml` actualizado con las nuevas fechas de modificación.
+- Datos verificados con fuentes oficiales: escala estatal de la base del ahorro 2026 (19 %–30 %), comisiones máximas de amortización anticipada en hipotecas (Banco de España), desistimiento de 14 días en préstamos al consumo (Ley 16/2011) y cobertura del Fondo de Garantía de Depósitos (hasta 100.000 € por titular y entidad).
+
+**Qué sigue pendiente (requiere decisión o datos del titular)**
+- [ ] **Identificación del titular** en el aviso legal (art. 10 LSSI): nombre o denominación, domicilio y datos de contacto. No se han inventado datos.
+- [ ] **Página de contacto** con un correo real, y enlazarla desde el pie y desde «Cómo funciona».
+- [ ] **Nombre de autor o equipo editorial real**, si el titular desea mostrarlo.
+- [ ] **Dominio propio** (recomendado antes de solicitar la revisión: las URL `*.vercel.app` suelen ser un obstáculo para la aprobación).
+- [ ] **CMP certificada por Google (TCF)** antes de mostrar anuncios; actualizar privacidad y cookies.
+- [ ] Solicitar la revisión en AdSense solo cuando lo anterior esté resuelto. Mejorar el contenido aumenta las probabilidades, pero no garantiza la aprobación.
