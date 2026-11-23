@@ -203,6 +203,8 @@ if(gaId()){
     const message=box.querySelector('p');
     if(message&&!message.querySelector('a'))message.insertAdjacentHTML('beforeend',' <a href="/cookies">Política de cookies</a> y <a href="/privacidad">privacidad</a>.');
   }
+  box.setAttribute('role','region');
+  box.setAttribute('aria-label','Preferencias de cookies y analítica');
   if(pref!=='yes'&&pref!=='no')box.classList.add('show');
 
   document.querySelector('.privacy-preferences-button')?.addEventListener('click',()=>{

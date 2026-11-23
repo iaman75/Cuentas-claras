@@ -85,3 +85,17 @@ Estado de revisión: 29 de octubre de 2026.
 - [ ] **Dominio propio** (recomendado antes de solicitar la revisión: las URL `*.vercel.app` suelen ser un obstáculo para la aprobación).
 - [ ] **CMP certificada por Google (TCF)** antes de mostrar anuncios; actualizar privacidad y cookies.
 - [ ] Solicitar la revisión en AdSense solo cuando lo anterior esté resuelto. Mejorar el contenido aumenta las probabilidades, pero no garantiza la aprobación.
+
+## Actualización — 23/11/2026 (datos legales y contacto)
+
+**Hecho**
+- Aviso legal y política de privacidad completados con los datos del titular que él mismo ha autorizado publicar (nombre, domicilio, correo y teléfono). Eliminados los marcadores `[..._LEGAL]` y los avisos de «pendiente».
+- Nueva página `/contacto` (indexable), enlazada desde el pie de todas las páginas, desde «Cómo funciona» y desde el aviso legal; añadida al sitemap.
+- «Cómo funciona» identifica al editor y explica cómo avisar de un error.
+- Banner de cookies: el comportamiento no cambia (Aceptar y Rechazar con el mismo peso, y «Configurar privacidad» en el pie); se añade `role` y `aria-label` para accesibilidad.
+
+**Pendiente**
+- [ ] **NIF del titular**: el art. 10 LSSI lo exige en el aviso legal. No se ha inventado; añadirlo cuando el titular lo facilite.
+- [ ] **Banner de consentimiento para anuncios**: el banner propio cubre Analytics, pero para servir anuncios personalizados en el Espacio Económico Europeo Google exige un mensaje de consentimiento de una plataforma certificada. La opción gratuita es la de Google dentro de AdSense («Privacidad y mensajes»); se configura en la cuenta de AdSense, no en este repositorio.
+- [ ] Dominio propio (decisión del titular: de momento se mantiene `vercel.app`).
+- [ ] Solicitar la revisión en AdSense cuando el titular lo decida; mejorar el contenido aumenta las probabilidades, pero no garantiza la aprobación.
