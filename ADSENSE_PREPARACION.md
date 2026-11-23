@@ -95,7 +95,7 @@ Estado de revisión: 29 de octubre de 2026.
 - Banner de cookies: el comportamiento no cambia (Aceptar y Rechazar con el mismo peso, y «Configurar privacidad» en el pie); se añade `role` y `aria-label` para accesibilidad.
 
 **Pendiente**
-- [ ] **NIF del titular**: el art. 10 LSSI lo exige en el aviso legal. No se ha inventado; añadirlo cuando el titular lo facilite.
+- [x] **NIF del titular** incluido en el aviso legal (art. 10 LSSI) a petición expresa del titular (23/11/2026).
 - [ ] **Banner de consentimiento para anuncios**: el banner propio cubre Analytics, pero para servir anuncios personalizados en el Espacio Económico Europeo Google exige un mensaje de consentimiento de una plataforma certificada. La opción gratuita es la de Google dentro de AdSense («Privacidad y mensajes»); se configura en la cuenta de AdSense, no en este repositorio.
 - [ ] Dominio propio (decisión del titular: de momento se mantiene `vercel.app`).
 - [ ] Solicitar la revisión en AdSense cuando el titular lo decida; mejorar el contenido aumenta las probabilidades, pero no garantiza la aprobación.
