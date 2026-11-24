@@ -65,7 +65,7 @@ Estado de revisión: 29 de octubre de 2026.
 - El archivo `/ads.txt` contiene la línea estándar de Google con el ID real facilitado en una captura de AdSense.
 - El script de anuncios no se ha añadido, y ningún código publicitario se activa por la metaetiqueta ni por `ads.txt`.
 - **Pendiente:** verificar en la interfaz de AdSense con el método «Etiqueta meta». Google realiza la comprobación en sus servidores.
-- **Pendiente:** confirmar respuesta HTTP 200 y contenido correcto de `https://cuentas-claras-murex-delta.vercel.app/ads.txt` en un navegador externo; el despliegue exitoso no sustituye esta prueba.
+- **Pendiente:** confirmar respuesta HTTP 200 y contenido correcto de `https://cuentasclaras-gamma.vercel.app/ads.txt` en un navegador externo; el despliegue exitoso no sustituye esta prueba.
 - **No solicitar revisión final hasta resolver** la identificación legal del sitio y completar las políticas de privacidad/cookies y el plan de consentimiento publicitario. Estos asuntos pueden afectar a la aprobación y al cumplimiento legal.
 
 ## Actualización — 23/11/2026 (ampliación de contenido tras el aviso «Contenido de poco valor»)
@@ -99,3 +99,6 @@ Estado de revisión: 29 de octubre de 2026.
 - [ ] **Banner de consentimiento para anuncios**: el banner propio cubre Analytics, pero para servir anuncios personalizados en el Espacio Económico Europeo Google exige un mensaje de consentimiento de una plataforma certificada. La opción gratuita es la de Google dentro de AdSense («Privacidad y mensajes»); se configura en la cuenta de AdSense, no en este repositorio.
 - [ ] Dominio propio (decisión del titular: de momento se mantiene `vercel.app`).
 - [ ] Solicitar la revisión en AdSense cuando el titular lo decida; mejorar el contenido aumenta las probabilidades, pero no garantiza la aprobación.
+
+## Actualización 2026-11-25: cambio de dirección
+El proyecto antiguo de Vercel (`cuentas-claras-murex-delta.vercel.app`) está en otra cuenta y no recibe cambios del repositorio. La web activa es `https://cuentasclaras-gamma.vercel.app`. Pendiente por parte del titular: añadir esta dirección como propiedad en Search Console, enviar `sitemap.xml`, y añadirla como sitio en AdSense.

@@ -2,7 +2,7 @@
 
 Sitio educativo de calculadoras financieras gratuitas, publicado en Vercel.
 
-**URL actual:** https://cuentas-claras-murex-delta.vercel.app/
+**URL actual:** https://cuentasclaras-gamma.vercel.app/
 
 ## Funcionalidades
 - 10 calculadoras con URL individual: ahorro, interés compuesto, objetivo de ahorro, hipoteca, préstamo, depósito, coche, independizarse, fondo de emergencia, regla 50/30/20 y compra de vivienda.

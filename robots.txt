@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cuentas-claras-murex-delta.vercel.app/sitemap.xml
+Sitemap: https://cuentasclaras-gamma.vercel.app/sitemap.xml
